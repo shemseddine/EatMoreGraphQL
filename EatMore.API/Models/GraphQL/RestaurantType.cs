@@ -9,8 +9,8 @@ namespace EatMore.API.Models.GraphQL
             Name = "Restaurant";
 
             Field(x => x.Id, type: typeof(IdGraphType)).Description("The ID of the Restaurant.");
-            Field(x => x.Name).Description("The name of the Restaraunt");
-            Field(x => x.Menus, type: typeof(MenuType)).Description("Restaurant Menus");
+            Field(x => x.Name).Description("The name of the Restaurant");
+            Field(x => x.Menus, type: typeof(ListGraphType<MenuType>)).Description("Restaurant Menus");
         }
     }
 }
