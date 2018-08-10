@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EatMore.API", "EatMore.API\EatMore.API.csproj", "{2D54DDB3-E8F2-49B4-A8CB-3F92657B88CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D54DDB3-E8F2-49B4-A8CB-3F92657B88CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D54DDB3-E8F2-49B4-A8CB-3F92657B88CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D54DDB3-E8F2-49B4-A8CB-3F92657B88CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D54DDB3-E8F2-49B4-A8CB-3F92657B88CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18EED6C7-A633-4517-BD87-472FC00EF4EC}
+	EndGlobalSection
+EndGlobal
